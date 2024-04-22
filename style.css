@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/696/278/original/textured-black-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*cor e centralizar o texto*/
+#letra{
+    color: white;
+    text-align: center;
+}
+
+.btn-sucesso {
+    display: block; /*centralizar*/
+    align-items: center; /*centralizar*/
+    text-align: center; /*centralizar*/
+    margin-bottom: 20px; /*espaço de um botão para o outro*/
+    border: 2px solid black; /*cor da borda*/
+    background-color:rgb(96, 221, 219); /*cor do botão*/ 
+    font-size: 20px; /*tamanho do botão*/
+}
+
+/*mudar de cor quando passa o mouse em cima*/
+.btn-sucesso:hover{
+    background-color: rgb(12, 54, 116);
+}
+
+/*centralizar*/
+.js {
+    position: relative;
+}
+
+.t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
